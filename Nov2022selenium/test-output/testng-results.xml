@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-18T11:17:00Z" name="TestNG Regression Suite" finished-at="2023-04-18T11:17:23Z" duration-ms="23114">
+    <groups>
+    </groups>
+    <test started-at="2023-04-18T11:17:00Z" name="Cart Test" finished-at="2023-04-18T11:17:07Z" duration-ms="7226">
+      <class name="testngSession.CartTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:testngSession.CartTest@1018bde2]" started-at="2023-04-18T11:17:00Z" name="setUp" finished-at="2023-04-18T11:17:04Z" duration-ms="4026" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://naveenautomationlabs.com/opencart/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getTitle()[pri:1, instance:testngSession.CartTest@1018bde2]" started-at="2023-04-18T11:17:04Z" name="getTitle" finished-at="2023-04-18T11:17:04Z" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testngSession.CartTest@1018bde2]" started-at="2023-04-18T11:17:04Z" name="tearDown" finished-at="2023-04-18T11:17:04Z" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:testngSession.CartTest@1018bde2]" started-at="2023-04-18T11:17:04Z" name="setUp" finished-at="2023-04-18T11:17:07Z" duration-ms="2914" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://naveenautomationlabs.com/opencart/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="isDisplayed()[pri:2, instance:testngSession.CartTest@1018bde2]" started-at="2023-04-18T11:17:07Z" name="isDisplayed" finished-at="2023-04-18T11:17:07Z" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testngSession.CartTest@1018bde2]" started-at="2023-04-18T11:17:07Z" name="tearDown" finished-at="2023-04-18T11:17:07Z" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testngSession.CartTest -->
+    </test> <!-- Cart Test -->
+    <test started-at="2023-04-18T11:17:07Z" name="Login Test" finished-at="2023-04-18T11:17:17Z" duration-ms="9392">
+      <class name="testngSession.LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:testngSession.LoginTest@7e9131d5]" started-at="2023-04-18T11:17:07Z" name="setUp" finished-at="2023-04-18T11:17:11Z" duration-ms="4020" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://naveenautomationlabs.com/opencart/index.php?route=account/login]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getTitle()[pri:1, instance:testngSession.LoginTest@7e9131d5]" started-at="2023-04-18T11:17:11Z" name="getTitle" finished-at="2023-04-18T11:17:11Z" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testngSession.LoginTest@7e9131d5]" started-at="2023-04-18T11:17:11Z" name="tearDown" finished-at="2023-04-18T11:17:12Z" duration-ms="605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:testngSession.LoginTest@7e9131d5]" started-at="2023-04-18T11:17:12Z" name="setUp" finished-at="2023-04-18T11:17:16Z" duration-ms="4270" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://naveenautomationlabs.com/opencart/index.php?route=account/login]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="isDisplayed()[pri:2, instance:testngSession.LoginTest@7e9131d5]" started-at="2023-04-18T11:17:16Z" name="isDisplayed" finished-at="2023-04-18T11:17:16Z" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testngSession.LoginTest@7e9131d5]" started-at="2023-04-18T11:17:16Z" name="tearDown" finished-at="2023-04-18T11:17:17Z" duration-ms="446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testngSession.LoginTest -->
+    </test> <!-- Login Test -->
+    <test started-at="2023-04-18T11:17:17Z" name="Register Test" finished-at="2023-04-18T11:17:23Z" duration-ms="6441">
+      <class name="testngSession.RegisterTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:testngSession.RegisterTest@776b83cc]" started-at="2023-04-18T11:17:17Z" name="setUp" finished-at="2023-04-18T11:17:20Z" duration-ms="3373" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://naveenautomationlabs.com/opencart/index.php?route=account/register]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getTitle()[pri:1, instance:testngSession.RegisterTest@776b83cc]" started-at="2023-04-18T11:17:20Z" name="getTitle" finished-at="2023-04-18T11:17:20Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testngSession.RegisterTest@776b83cc]" started-at="2023-04-18T11:17:20Z" name="tearDown" finished-at="2023-04-18T11:17:20Z" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:testngSession.RegisterTest@776b83cc]" started-at="2023-04-18T11:17:20Z" name="setUp" finished-at="2023-04-18T11:17:23Z" duration-ms="2819" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://naveenautomationlabs.com/opencart/index.php?route=account/register]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="isDisplayed()[pri:2, instance:testngSession.RegisterTest@776b83cc]" started-at="2023-04-18T11:17:23Z" name="isDisplayed" finished-at="2023-04-18T11:17:23Z" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testngSession.RegisterTest@776b83cc]" started-at="2023-04-18T11:17:23Z" name="tearDown" finished-at="2023-04-18T11:17:23Z" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testngSession.RegisterTest -->
+    </test> <!-- Register Test -->
+  </suite> <!-- TestNG Regression Suite -->
+</testng-results>
